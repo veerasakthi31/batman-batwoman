@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman ❤️ Batwoman</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<!-- ================= PAGE 1 ================= -->
+
+<section id="page1" class="page active">
+
+    <div class="bat-logo">
+        🦇
+    </div>
+
+    <h1>Incoming Secure Transmission</h1>
+
+    <div class="terminal">
+
+        <p>━━━━━━━━━━━━━━━━━━━━━━</p>
+
+        <p>BATCOMPUTER</p>
+
+        <p>Scanning Identity...</p>
+
+        <div class="loader">
+            <div class="progress"></div>
+        </div>
+
+        <p id="verified">
+            Identity Verified ✅
+        </p>
+
+        <br>
+
+        <h2>Hi Batman ❤️</h2>
+
+        <p>
+
+            Thanks for opening this secret message
+            despite your busy schedule.
+
+        </p>
+
+        <p>
+
+            I promise I'll only steal
+            five minutes before you head
+            off on your next mission.
+
+        </p>
+
+        <button onclick="nextPage(2)">
+            ACCEPT MISSION 🦇
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= PAGE 2 ================= -->
+
+<section id="page2" class="page">
+
+    <div class="card">
+
+        <h1>Authentication Required</h1>
+
+        <p>
+
+            Choose the correct date
+            we first met.
+
+        </p>
+
+        <div class="quiz">
+
+            <button onclick="wrongAnswer()">
+
+                July 10
+
+            </button>
+
+            <button onclick="correctAnswer()">
+
+                July 13 ❤️
+
+            </button>
+
+        </div>
+
+        <p id="quizResult"></p>
+
+    </div>
+
+</section>
+
+<!-- ================= PAGE 3 ================= -->
+
+<section id="page3" class="page">
+
+    <div class="letter">
+
+        <h1>For My Batman ❤️</h1>
+
+        <div id="typingText"></div>
+
+        <button onclick="nextPage(4)">
+
+            Continue ❤️
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= PAGE 4 ================= -->
+
+<section id="page4" class="page">
+
+    <div class="proposal-card">
+
+        <h1>🦇 One Last Question...</h1>
+
+        <p class="proposal-text">
+
+            Will you accept me as your Batwoman
+            and promise to take me on
+            all your missions from now on?
+
+        </p>
+
+        <div class="buttons">
+
+          <button onclick="showCelebration()">
+    YES ❤️
+</button>
+
+            <button id="noBtn">
+
+                NO 🖤
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PAGE 5 ================= -->
+
+<section id="page5" class="page">
+
+    <div class="celebration">
+
+        <h1>❤️ Mission Accepted ❤️</h1>
+
+        <div class="loading-box">
+
+            <p>Connecting to Batwoman...</p>
+
+            <div class="loader">
+
+                <div class="progress final-progress"></div>
+
+            </div>
+
+        </div>
+
+        <audio id="loveSong" controls>
+
+            <source src="machan.mp3" type="audio/mpeg">
+
+        </audio>
+
+     <div class="photo-gallery">
+
+    <img
+        src="second-photo.jpg"
+        class="couple-photo"
+        alt="Our Memory">
+
+    <img
+        src="your-photo.jpg"
+        class="couple-photo"
+        alt="Batman and Batwoman">
+
+</div>
+
+        <h2>
+
+            you're my hangova!!❤️
+
+
+        </h2>
+
+        <br>
+
+        <h3>
+
+            Batman ❤️ Batwoman
+
+        </h3>
+
+
+
+        <p>
+
+            The Beginning of Our Forever 💍
+
+        </p>
+
+        <div class="mission-box">
+
+            <h2>
+
+                Mission Status : COMPLETED ✅
+
+            </h2>
+
+            <p>
+
+                Objective Achieved :
+
+                Batman found his Batwoman ❤️
+<br>
+                No matter what missions, battles, or objectives life gives us, promise me you'll carry this mission—us—until your very last breath.
+
+And I promise you, I'll fight beside you and protect this love until my very last breath too. ❤️
+
+            </p>
+
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,471 @@
+/* ===============================
+   BATMAN PROPOSAL WEBSITE
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#05070f;
+    color:white;
+    overflow-x:hidden;
+overflow-y:auto;
+
+}
+
+/* Animated Background */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    width:100%;
+    height:100%;
+
+    background:
+    radial-gradient(circle at top,#2b2f55 0%,#05070f 60%);
+
+    z-index:-3;
+
+}
+
+/* Floating Hearts */
+
+.hearts{
+
+    position:fixed;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    z-index:-2;
+
+}
+
+.hearts span{
+
+    position:absolute;
+    color:#ff4f87;
+    animation:floatHeart linear infinite;
+
+}
+
+@keyframes floatHeart{
+
+    from{
+
+        transform:translateY(100vh);
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:translateY(-120px);
+        opacity:1;
+
+    }
+
+}
+
+/* Page */
+
+.page{
+
+    display:none;
+
+    min-height:100vh;
+
+    width:100%;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    padding:30px;
+
+    text-align:center;
+
+}
+
+.page.active{
+
+    display:flex;
+
+}
+
+/* Batman Logo */
+
+.bat-logo{
+
+    font-size:80px;
+
+    animation:pulse 2s infinite;
+
+    margin-bottom:20px;
+
+}
+
+@keyframes pulse{
+
+0%{transform:scale(1);}
+50%{transform:scale(1.15);}
+100%{transform:scale(1);}
+
+}
+
+/* Terminal */
+
+.terminal{
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    backdrop-filter:blur(10px);
+
+    padding:35px;
+
+    border-radius:20px;
+
+    width:90%;
+
+    max-width:700px;
+
+    box-shadow:0 0 40px rgba(0,150,255,.25);
+
+}
+
+.loader{
+
+    width:100%;
+
+    height:10px;
+
+    background:#222;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    margin:20px 0;
+
+}
+
+.progress{
+
+    width:0%;
+
+    height:100%;
+
+    background:linear-gradient(90deg,#00bfff,#5fdcff);
+
+    animation:loading 3s forwards;
+
+}
+
+@keyframes loading{
+
+    from{
+
+        width:0%;
+
+    }
+
+    to{
+
+        width:100%;
+
+    }
+
+}
+
+button{
+
+    margin-top:25px;
+
+    padding:14px 35px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#ff3b81;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:scale(1.08);
+
+    box-shadow:0 0 25px #ff3b81;
+
+}
+
+
+/* ===============================
+   QUIZ PAGE
+================================ */
+
+.card,
+.letter,
+.proposal-card,
+.celebration{
+
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+
+    width:90%;
+    max-width:850px;
+
+    padding:45px;
+
+    border-radius:25px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    box-shadow:0 0 40px rgba(0,191,255,.2);
+
+}
+
+.card h1,
+.letter h1,
+.proposal-card h1{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.card p,
+.letter p,
+.proposal-text{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
+
+/* Quiz */
+
+.quiz{
+
+    margin-top:30px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.quiz button{
+
+    min-width:170px;
+
+}
+
+#quizResult{
+
+    margin-top:30px;
+
+    font-size:22px;
+
+    color:#7CFFB2;
+
+    font-weight:bold;
+
+}
+
+/* Love Letter */
+
+#typingText{
+
+    margin-top:20px;
+
+    min-height:260px;
+
+    text-align:left;
+
+    font-size:19px;
+
+    line-height:1.9;
+
+    white-space:pre-line;
+
+}
+
+/* Proposal */
+
+.buttons{
+
+    margin-top:40px;
+
+}
+
+#yesBtn{
+
+    background:#ff2d75;
+
+}
+
+#yesBtn:hover{
+
+    background:#ff4f87;
+
+}
+
+#noBtn{
+
+    background:#2e2e2e;
+
+    position:relative;
+
+}
+
+/* Final Page */
+
+.couple-photo{
+
+    width:300px;
+
+    max-width:90%;
+
+    margin-top:30px;
+
+    border-radius:25px;
+
+    border:5px solid white;
+
+    box-shadow:0 0 35px rgba(255,255,255,.4);
+
+    animation:fadePhoto 2s ease;
+
+}
+
+@keyframes fadePhoto{
+
+    from{
+
+        opacity:0;
+        transform:scale(.7);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:scale(1);
+
+    }
+
+}
+
+.loading-box{
+
+    margin:20px 0;
+
+}
+
+.final-progress{
+
+    animation:loading 4s forwards;
+
+}
+
+.mission-box{
+
+    margin-top:35px;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    background:rgba(0,255,180,.08);
+
+    border:1px solid rgba(0,255,180,.3);
+
+}
+
+/* Audio */
+
+audio{
+
+    margin-top:20px;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.card,
+.letter,
+.proposal-card,
+.celebration{
+
+padding:25px;
+
+}
+
+.card h1,
+.letter h1,
+.proposal-card h1{
+
+font-size:30px;
+
+}
+
+.card p,
+.letter p,
+.proposal-text,
+#typingText{
+
+font-size:17px;
+
+}
+
+button{
+
+width:100%;
+
+}
+
+.couple-photo{
+
+width:240px;
+
+}
+
+}
+
+.photo-gallery{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+
+}
