@@ -60,13 +60,33 @@ my favorite person,
 
 and my favorite place to find happiness.
 
-I love waking up to your 4+ new messages.
+Since the day I met you, you've been living in my heart 24/7, 
 
-That literally makes my day so much better.
+and I never want that to end.
 
-Please never stop doing that...
+I love hearing your voice. I love the way you say,
 
-It makes my heart so much happier ❤️
+"Sollu la," "Saptiya la" , "Kaasu venumna kelu la."
+
+I love that you message me during your break, even if it's just for an hour.
+
+There are so many things I love about you. 
+
+In fact, there's not a single thing I don't love about you.
+
+I love the way you reply to my reels. You know what the best part of my day is? 
+
+Waking up to 4+ new messages from you. Please never stop doing that.
+
+I have just one request for you on this journey.
+
+The Batman I saw on the very first day,
+
+the love I saw in his eyes that day — please never let that change, 
+
+whether it's after 30 days or 30 years. I always want to know, 
+
+just by looking into your eyes, how deeply you love me.
 
 I don't know what tomorrow brings...
 
