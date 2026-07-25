@@ -78,7 +78,7 @@ I love the way you reply to my reels. You know what the best part of my day is?
 
 Waking up to 4+ new messages from you. Please never stop doing that.
 
-I have just one request for you on this journey.
+I have just one request for you.
 
 The Batman I saw on the very first day,
 
@@ -87,6 +87,14 @@ the love I saw in his eyes that day — please never let that change,
 whether it's after 30 days or 30 years. I always want to know, 
 
 just by looking into your eyes, how deeply you love me.
+
+"I love you" doesn't even come close to expressing what I feel for you.
+
+I want to spend this lifetime beside you...
+
+showing you, every single day,
+
+how much you mean to me.
 
 I don't know what tomorrow brings...
 
